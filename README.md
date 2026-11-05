@@ -15,6 +15,12 @@ https://cdn.jsdelivr.net/gh/fistluck-lgtm/monsterbook-assets@main/<이름>.glb
 | 묶음 | 파일 | 출처 | 라이선스 |
 |---|---|---|---|
 | 몹 30 · 보스 10 | `mob_*.glb` · `boss*.glb` | Quaternius — Ultimate Monsters Pack | CC0 / CC-BY 4.0 |
+| 플레이어 4 | `player_*.glb` | Kay Lousberg — KayKit Adventurers | CC0 |
+
+플레이어는 원본 그대로입니다. 무기·투구·망토가 모델 안에 들어 있어서,
+게임 쪽 표(`PLAYER_GLB`)의 `hide` 목록으로 직업에 맞지 않는 것만 끕니다.
+`player_cleric.glb` 는 `player_mage.glb` 와 같은 파일이며, 끄는 조각이 달라
+고깔과 큰 지팡이 대신 펼친 법서와 완드를 듭니다.
 
 몬스터 묶음은 한 덩어리로 된 원본(50마리)을 종마다 따로 떼어 낸 것입니다.
 떼어 내면서 바깥을 감싸던 Y-up 보정 행렬은 살리고, 진열용으로 주어졌던
@@ -24,7 +30,7 @@ https://cdn.jsdelivr.net/gh/fistluck-lgtm/monsterbook-assets@main/<이름>.glb
 ## 출처 표기
 
 - **Quaternius** (https://quaternius.com) — Ultimate Monsters Pack
-- **Kay Lousberg** (https://kaylousberg.com) — KayKit 묶음 *(플레이어·소품, 추가 예정)*
+- **Kay Lousberg** (https://kaylousberg.com) — KayKit Adventurers (`LICENSE-KayKit.txt`)
 
 두 분 모두 개인·교육·상업적 사용을 허락하고 있습니다. KayKit 은 출처 표기를
 요구하지 않지만 남겨 둡니다.
