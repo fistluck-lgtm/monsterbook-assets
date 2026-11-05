@@ -16,6 +16,7 @@ https://cdn.jsdelivr.net/gh/fistluck-lgtm/monsterbook-assets@main/<이름>.glb
 |---|---|---|---|
 | 몹 30 · 보스 10 | `mob_*.glb` · `boss*.glb` | Quaternius — Ultimate Monsters Pack | CC0 / CC-BY 4.0 |
 | 플레이어 4 | `player_*.glb` | Kay Lousberg — KayKit Adventurers | CC0 |
+| 건물·나무·바위 12 | `bld_*` `wld_*` `temple` `lmk_*` `wall_*` | Kay Lousberg — KayKit Medieval Hexagon | CC0 |
 
 플레이어는 원본 그대로입니다. 무기·투구·망토가 모델 안에 들어 있어서,
 게임 쪽 표(`PLAYER_GLB`)의 `hide` 목록으로 직업에 맞지 않는 것만 끕니다.
@@ -30,7 +31,10 @@ https://cdn.jsdelivr.net/gh/fistluck-lgtm/monsterbook-assets@main/<이름>.glb
 ## 출처 표기
 
 - **Quaternius** (https://quaternius.com) — Ultimate Monsters Pack
-- **Kay Lousberg** (https://kaylousberg.com) — KayKit Adventurers (`LICENSE-KayKit.txt`)
+- **Kay Lousberg** (https://kaylousberg.com) — KayKit Adventurers · Medieval Hexagon (`LICENSE-KayKit.txt`)
+
+Medieval Hexagon 묶음은 원본이 `.gltf` + `.bin` + 공용 텍스처로 나뉘어 있어서,
+게임이 주소 하나로 받아 갈 수 있도록 `.glb` 한 덩어리로 묶었습니다.
 
 두 분 모두 개인·교육·상업적 사용을 허락하고 있습니다. KayKit 은 출처 표기를
 요구하지 않지만 남겨 둡니다.
